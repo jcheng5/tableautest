@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      /* Basic Options */
+      "target": "esnext",
+      "module": "commonjs",
+      "sourceMap": true,
+      "alwaysStrict": true,
+      "baseUrl": "./src",
+      "typeRoots": ["./node_modules/@tableau", "./node_modules/@types"]
+    }
+  }
+  
