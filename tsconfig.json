@@ -2,11 +2,22 @@
     "compilerOptions": {
       /* Basic Options */
       "target": "esnext",
-      "module": "commonjs",
+      "module": "amd",
+      "moduleResolution": "node",
       "sourceMap": true,
       "alwaysStrict": true,
       "baseUrl": "./src",
-      "typeRoots": ["./node_modules/@tableau", "./node_modules/@types"]
-    }
+      "typeRoots": ["./node_modules/@tableau", "./node_modules/@types"],
+      "outFile": "public/app.js"
+    },
+    "files": [
+      "src/dump.ts"
+    ],
+    "include": [
+      "src/**/*"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
   }
   
